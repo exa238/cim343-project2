@@ -24,6 +24,8 @@ h3{
     text-align: center;
 }
 
+/* lumon announcements section */
+
 .lumon-box-intro{
     max-width: 1000px;
     margin: 40px auto;
@@ -38,12 +40,14 @@ h3{
 
 .lumon-announcement{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 20px;
-    max-width: 500px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    max-width: 700px;
     margin: 40px auto;
-    padding: 20px;
+    padding: 10px;
 }
+
+/* maybe make it flash */
 @keyframes flicker{
     0%, 100% {opacity: 0.98;}
     50% {opacity: 1;}
@@ -51,20 +55,19 @@ h3{
 
 .announcement-box {
     background-color: white;
-    border: 2px solid #0a6b6b;
+    border: 2px solid #002c55;
     border-radius: 6px;
-    padding: 20px 24px;
+    padding: 20px 20px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     transition: transform 0.25s ease, background-color 0.25s ease;
 }
-
 .announcement-box:hover {
     transform: translateY(-3px);
     background-color: #e6f2f2;
 }
 
 .announcement-box h2 {
-    color: #0a6b6b;
+    color: #002c55;
     margin-bottom: 10px;
     font-size: 1.3rem;
 }
@@ -73,7 +76,6 @@ h3{
     font-size: 0.95rem;
     line-height: 1.5;
 }
-
 
 
 
@@ -140,29 +142,65 @@ h3{
 }
 
 /*theory page elements*/
-.theory-page {
-  max-width: 800px;
-  margin: 60px auto;
-  padding: 0 20px;
+.theory-container{
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
 }
 
-.theory-page h1 {
+.theory-container h1 {
   font-size: 2rem;
   color: #0a6b6b;
   margin-bottom: 20px;
   text-align: center;
 }
 
-.theory-page p {
+.theory-content p {
   margin-bottom: 16px;
   font-size: 14px;
-  max-width: 700px;
-  margin: 60px auto;
-  padding: 30px 40px;
-  background-color: white;
-  border: 2px solid #0a6b6b;
-  border-radius: 6px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.theory-content{
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 30px 40px;
+    background-color: white;
+    border: 2px solid #0a6b6b;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.back-home{
+    text-align: center;
+    margin: 40px 0;
+    color: #0a6b6b;
+}
+.home-button{
+    text-decoration: none;
+    font-weight: 600;
+    border: 2px solid #002c55;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: inline-block;
+    transition: background-color 0.25s ease, color 0.25s ease;
+    position: relative;
+}
+/* try to make it shake */
+.home-button:hover{
+    background-color: #89aec8;
+    color: #084f4f;
+    animation: shake 0.35s ease-in-out;
+}
+@keyframes shake{
+    0% { transform: translate(0, 0); }
+    20% { transform: translate(-2px, 1px); }
+    40% { transform: translate(2px, -1px); }
+    60% { transform: translate(-1px, 2px); }
+    80% { transform: translate(1px, -2px); }
+    100% { transform: translate(0, 0); }
+}
+.home-button:visited{
+    color:#4e452a;
 }
 
 
