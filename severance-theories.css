@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body {
   margin: 0;
   padding: 0;
   background-color: #D7E7EA;
   color: #111;
-  font-family: 'Sixtyfour Convergence', 'Orbitron', sans-serif;
+  font-family: 'Sixtyfour Convergence', 'Press Start 2P', sans-serif;
   line-height: 1.6;
   background-image: linear-gradient(#e9eeee 1px, transparent 1px),linear-gradient(90deg, #e9eeee 1px, transparent 1px);
   background-size: 40px 40px;
