@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f0f6f7;
+  background-color: #D7E7EA;
   color: #111;
   padding-bottom: 20px;
   font-family: 'Sixtyfour Convergence', sans-serif;
@@ -240,5 +240,39 @@ h3{
 .dark-mode #nightModeBtn{
     background: #0b0e29;
     color: #f0f6f7;
+}
+.dark-mode #text-button{
+    background: #0b0e29;
+    color: #f0f6f7;
+}
+.dark-mode #revert-button{
+    background: #0b0e29;
+    color: #f0f6f7;
+}
+
+/* text zoom button */
+#text-button{
+    display: block;              /* allows centering */
+    margin: 20px auto;           /* centers the button */
+    padding: 10px 20px;
+    background: #002c55;
+    color: #f0f6f7;
+    border: 2px solid white;     /* fixed typo */
+    cursor: pointer;
+    font-family: inherit;        /* matches your site font */
+    letter-spacing: 1px;
+    text-align: center; 
+}
+#revert-button{
+     display: block;              /* allows centering */
+    margin: 20px auto;           /* centers the button */
+    padding: 10px 20px;
+    background: #002c55;
+    color: #f0f6f7;
+    border: 2px solid white;     /* fixed typo */
+    cursor: pointer;
+    font-family: inherit;        /* matches your site font */
+    letter-spacing: 1px;
+    text-align: center;
 }
 
