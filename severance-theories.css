@@ -24,6 +24,7 @@ h3{
     text-align: center;
 }
 
+
 /* lumon announcements section */
 
 .lumon-box-intro{
@@ -203,4 +204,41 @@ h3{
     color:#4e452a;
 }
 
+/* dark mode */
+.dark-mode{
+    background-color:#002c55;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+.dark-mode h1, .dark-mode h3{
+    color: white;
+}
+.dark-mode footer{
+    color: white;
+}
+.dark-mode body{
+    color:#4e452a;
+}
+
+.dark-mode a{
+    color: #7b6727;
+}
+.dark-mode .home-button{
+    color: white;
+}
+#nightModeBtn {
+    display: block;              /* allows centering */
+    margin: 20px auto;           /* centers the button */
+    padding: 10px 20px;
+    background: #002c55;
+    color: #f0f6f7;
+    border: 2px solid white;     /* fixed typo */
+    cursor: pointer;
+    font-family: inherit;        /* matches your site font */
+    letter-spacing: 1px;
+    text-align: center;
+}
+.dark-mode #nightModeBtn{
+    background: #0b0e29;
+    color: #f0f6f7;
+}
 
